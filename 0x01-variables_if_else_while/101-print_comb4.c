@@ -8,6 +8,7 @@ int main(void)
 {
 	int digit_one = 0;
 	int digit_two = 0;
+	int digit_three = 0;
 
 	for (digit_one = 48; digit_one <= 57; digit_one++)
 	{
