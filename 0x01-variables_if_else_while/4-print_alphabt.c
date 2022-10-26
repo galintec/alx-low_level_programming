@@ -9,17 +9,18 @@
  */
 int main(void)
 {
-	char ch = 'a';
+	int n = 0;
+	char alphabet[28] = "abcdefghijklmnopqrstuvwxyz";
 
-	while (ch <= 'z')
+	while (alphabet[n] != '\0')
 	{
-		if ((ch != 'e') && (ch != 'q'))
-				{
-				putchar (ch);
-				ch++;
-				}
+		if (alphabet[n] != 'e' && alphabet[n] != 'q')
+		{
+			putchar(alphabet[n]);
+			n++;
+		}
 	}
-				putchar('\n');
-				return (0);
+		putchar('\n');
+		return (0);
 }
 
